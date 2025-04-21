@@ -64,15 +64,9 @@ Welcome to the **Lu Wingz Assessment** project! This is a part of the Assessment
 
 ## 🚀 **Running Tests**
 
-**Run all tests:**
+**Run all tests by TEST_ENV:**
    ```
-   npx playwright test
-   ```
-
-
-**Run tests in a specific file:**
-   ```
-   npx playwright test [example.spec.js]
+   TEST_ENV=assessment npx playwright test
    ```
 
 **Generate an HTML report**
