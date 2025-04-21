@@ -64,7 +64,7 @@ Welcome to the **Lu Wingz Assessment** project! This is a part of the Assessment
 
 ## 🚀 **Running Tests**
 
-**Run all tests by TEST_ENV:**
+**Run all tests by TEST:**
    ```
    TEST_ENV=assessment npx playwright test
    ```
@@ -78,7 +78,7 @@ Welcome to the **Lu Wingz Assessment** project! This is a part of the Assessment
 
 ## 🚀 **GitHub Actions**
 
-This project includes a CI workflow using GitHub Actions. The workflow is defined in .github/workflows/playwright.yml. It runs tests on every push or pull request to the main or master branch.
+This project includes a CI workflow using GitHub Actions. The workflow is defined in .github/workflows/playwright.yml. It runs tests on every push or pull request to the main or master branch. **But please run this project on your local to see current results.**. 
 
 ## 📜 **Playwright Configuration**
 
