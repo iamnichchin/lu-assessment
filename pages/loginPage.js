@@ -33,6 +33,7 @@ class LoginPage {
     await this.enterUsername(email);
     await this.enterPassword(password);
     await this.clickLoginButton();
+    await this.page.waitForTimeout(3000);; // Wait for the page to load completely
   }
 }
 
